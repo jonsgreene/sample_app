@@ -40,4 +40,4 @@ $ rails server
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
 
-Current Location 3.6
+Current Location 4.0

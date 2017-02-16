@@ -16,5 +16,11 @@
 !/log/.keep
 /tmp
 
+# Ignore Byebug command history file.
+.byebug_history
+
 # Jetbrains Folder
-.idea/
+/.idea/
+
+# Ignore Spring files.
+/spring/*.pid

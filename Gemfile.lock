@@ -41,10 +41,10 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (7.1.4)
-    autoprefixer-rails (6.5.1.1)
+    autoprefixer-rails (7.1.2.3)
       execjs
     bcrypt (3.1.11)
-    bootstrap-sass (3.3.6)
+    bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     bootstrap-will_paginate (0.0.10)
@@ -349,7 +349,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt (= 3.1.11)
-  bootstrap-sass (= 3.3.6)
+  bootstrap-sass (= 3.3.7)
   bootstrap-will_paginate (= 0.0.10)
   byebug (= 9.0.0)
   carrierwave (= 0.11.2)
@@ -378,4 +378,4 @@ DEPENDENCIES
   will_paginate (= 3.1.0)
 
 BUNDLED WITH
-   1.13.3
+   1.15.2

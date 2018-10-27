@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'pry'
 
 class UsersSignupTest < ActionDispatch::IntegrationTest
 
@@ -25,6 +26,10 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     follow_redirect!
     assert_template 'users/show'
+    assert_not(flash.empty?)
+    assert_nil(flash[:danger])
+    assert_nil(flash[:failure])
+    assert(true, flash.keys.include?('success'))
   end
 
 end
